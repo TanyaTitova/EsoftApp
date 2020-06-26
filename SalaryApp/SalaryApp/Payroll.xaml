@@ -5,15 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SalaryApp"
         mc:Ignorable="d"
-        Title="Esoft SalaryApp | Расчёт зарплаты" Height="528.158" Width="861.579" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Esoft SalaryApp | Расчёт зарплаты" Height="528.158" Width="703.579" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="298*"/>
-            <ColumnDefinition Width="99*"/>
-        </Grid.ColumnDefinitions>
-        <DataGrid x:Name="SalaryDG" HorizontalAlignment="Left" Height="332" Margin="30,167,0,0" Width="792" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
-        <Button x:Name="SalaryBtn" Content="Рассчитать зарплату" HorizontalAlignment="Left" Margin="44,119,0,0" VerticalAlignment="Top" Width="190" Height="24" Click="SalaryBtn_Click" FontFamily="Comic Sans MS"/>
+        <DataGrid x:Name="SalaryDG" HorizontalAlignment="Left" Height="356" Margin="0,143,0,0" Width="698" VerticalAlignment="Top"/>
+        <Button x:Name="SalaryBtn" Content="Рассчитать зарплату" HorizontalAlignment="Left" Margin="431,76,0,0" VerticalAlignment="Top" Width="190" Height="24" Click="SalaryBtn_Click" FontFamily="Comic Sans MS"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="10,0,0,0" VerticalAlignment="Top" Width="288" Source="logo.png"/>
-        <Button x:Name="BackBtn" Content="Назад" HorizontalAlignment="Left" Margin="432,119,0,0" VerticalAlignment="Top" Width="184" Height="24" FontFamily="Comic Sans MS" Click="BackBtn_Click"/>
+        <Button x:Name="BackBtn" Content="Назад" HorizontalAlignment="Left" Margin="431,10,0,0" VerticalAlignment="Top" Width="184" Height="24" FontFamily="Comic Sans MS" Click="BackBtn_Click"/>
     </Grid>
 </Window>

@@ -24,14 +24,14 @@
         <TextBox x:Name="Ana" Grid.Row="1" Margin="502,69,202,107" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24" Width="190"/>
         <TextBox x:Name="Dep" Grid.Row="1" Margin="502,108,202,68" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24" Width="190"/>
         <TextBox x:Name="Sup" Grid.Row="1" Margin="502,150,202,26" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24" Width="190"/>
-        <TextBlock Grid.Column="0" Grid.Row="2" TextAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" Padding="15,5,0,0" Margin="40,23,593,119" >Коэффициент сложности <LineBreak/> исполнения задач:</TextBlock>
-        <TextBox x:Name="DR" Grid.Row="2" Margin="40,101,645,75" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24"/>
-        <TextBlock Grid.Column="0" Grid.Row="2" TextAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" Padding="15,5,0,0" Margin="502,24,156,119" >Коэффициент времени <LineBreak/> исполнения задач:</TextBlock>
-        <TextBox x:Name="TR" Grid.Row="2" Margin="502,101,189,75" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24"/>
-        <TextBlock Grid.Column="0" Grid.Row="3" TextAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" Padding="15,5,0,0" Margin="0,0,128,10" >Дополнительный коэффициент для перевода абстрактного веса задачи <LineBreak/> в денежный эквивалент:</TextBlock>
-        <TextBox x:Name="CE" Grid.Row="3" Margin="323,46,369,24" BorderBrush="#FF04A0FF" BorderThickness="1"/>
-        <Button x:Name="SaveBtn" Grid.Row="4" Content="Сохранить" Foreground="White" BorderBrush="#FF04A0FF" Background="#FF04A0FF" Padding="1" Margin="551,28,95,40" FontFamily="Comic Sans MS" FontSize="18" Click="SaveBtn_Click" />
-        <Button x:Name="BackBtn" Grid.Column="0" Grid.Row="4" Content="Назад" Foreground="White" BorderBrush="#666" Background="#666" Padding="1" Margin="28,28,627,40" FontFamily="Comic Sans MS" FontSize="18" Click="BackBtn_Click" />
+        <TextBlock Grid.Column="0" Grid.Row="2" TextAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" Padding="15,5,0,0" Margin="127,23,506,119" >Коэффициент сложности <LineBreak/> исполнения задач:</TextBlock>
+        <TextBox x:Name="DR" Grid.Row="2" Margin="127,101,558,75" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24"/>
+        <TextBlock Grid.Column="0" Grid.Row="2" TextAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" Padding="15,5,0,0" Margin="462,24,196,119" >Коэффициент времени <LineBreak/> исполнения задач:</TextBlock>
+        <TextBox x:Name="TR" Grid.Row="2" Margin="462,101,230,75" BorderBrush="#FF04A0FF" BorderThickness="1" Height="24"/>
+        <TextBlock Grid.Column="0" Grid.Row="3" TextAlignment="Left" FontSize="18" FontFamily="Comic Sans MS" Padding="15,5,0,0" Margin="118,0,10,10" >Дополнительный коэффициент для перевода абстрактного веса задачи <LineBreak/> в денежный эквивалент:</TextBlock>
+        <TextBox x:Name="CE" Grid.Row="3" Margin="462,38,230,32" BorderBrush="#FF04A0FF" BorderThickness="1"/>
+        <Button x:Name="SaveBtn" Grid.Row="4" Content="Сохранить" Padding="1" Margin="518,28,128,40" FontFamily="Comic Sans MS" FontSize="18" Click="SaveBtn_Click" />
+        <Button x:Name="BackBtn" Grid.Column="0" Grid.Row="4" Content="Назад" Padding="1" Margin="127,28,528,40" FontFamily="Comic Sans MS" FontSize="18" Click="BackBtn_Click" />
         <Label Content="Junior" HorizontalAlignment="Left" Height="25" Margin="248,87,0,0" Grid.Row="1" VerticalAlignment="Top" Width="56" FontFamily="Comic Sans MS"/>
         <Label Content="Middle" HorizontalAlignment="Left" Margin="248,123,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.803,-0.558" FontFamily="Comic Sans MS"/>
         <Label Content="Senior" HorizontalAlignment="Left" Margin="249,156,0,0" Grid.Row="1" VerticalAlignment="Top" RenderTransformOrigin="0.727,-0.038" FontFamily="Comic Sans MS"/>

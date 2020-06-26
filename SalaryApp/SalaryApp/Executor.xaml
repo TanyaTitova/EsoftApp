@@ -40,8 +40,8 @@
                 </DataGridTemplateColumn>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="UserBtn" Content="Сменить пользователя" HorizontalAlignment="Left" Margin="33,93,0,0" VerticalAlignment="Top" Width="140" FontFamily="Comic Sans MS" Click="UserBtn_Click" Grid.Column="1"/>
-        <ComboBox x:Name="StatusCB" Text="Любой статус" Focusable="False" HorizontalAlignment="Left" Height="22" Margin="157,12,0,0" Grid.Row="1" VerticalAlignment="Top" Width="158" DropDownClosed="StatusCB_DropDownClosed" IsEditable="True" IsReadOnly="True"/>
-        <Button x:Name="ExBtn" Content="Список исполнителей" HorizontalAlignment="Left" Margin="33,12,0,0" VerticalAlignment="Top" Width="140" FontFamily="Comic Sans MS" Click="ExBtn_Click" Grid.Row="1" Grid.Column="1"/>
+        <Button x:Name="UserBtn" Content="Сменить пользователя" HorizontalAlignment="Left" Margin="321,19,0,0" VerticalAlignment="Top" Width="140" FontFamily="Comic Sans MS" Click="UserBtn_Click"/>
+        <ComboBox x:Name="StatusCB" Text="Любой статус" Focusable="False" HorizontalAlignment="Left" Height="22" Margin="202,10,0,0" Grid.Row="1" VerticalAlignment="Top" Width="259" DropDownClosed="StatusCB_DropDownClosed" IsEditable="True" IsReadOnly="True"/>
+        <Button x:Name="ExBtn" Content="Список исполнителей" HorizontalAlignment="Left" Margin="321,56,0,0" VerticalAlignment="Top" Width="140" FontFamily="Comic Sans MS" Click="ExBtn_Click"/>
     </Grid>
 </Window>

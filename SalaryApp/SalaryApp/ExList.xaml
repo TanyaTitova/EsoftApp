@@ -5,16 +5,16 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SalaryApp"
         mc:Ignorable="d"
-        Title="Esoft SalaryApp | Список исполнителей" Height="600" Width="800" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+        Title="Esoft SalaryApp | Список исполнителей" Height="600" Width="602" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
     <Grid>
-        <DataGrid x:Name="ExListDG" HorizontalAlignment="Left" Height="419" Margin="116,152,0,0" VerticalAlignment="Top" Width="570" AutoGenerateColumns="False">
+        <DataGrid x:Name="ExListDG" HorizontalAlignment="Right" Height="419" Margin="0,152,-2,0" VerticalAlignment="Top" Width="598" AutoGenerateColumns="False">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="ФИО исполнителя" Binding="{Binding Path=Executor}" FontFamily="Comic Sans MS" IsReadOnly="True"/>
                 <DataGridTextColumn Header="Должность" Binding="{Binding Path=Grade}" IsReadOnly="True" FontFamily="Comic Sans MS"/>
                 <DataGridTextColumn Header="ФИО менеджера" Binding="{Binding Path=Manager}" IsReadOnly="True" FontFamily="Comic Sans MS"/>
             </DataGrid.Columns>
         </DataGrid>
-        <Button x:Name="BackBtn" Content="Вернуться назад" HorizontalAlignment="Left" Margin="374,56,0,0" VerticalAlignment="Top" Width="202" Click="BackBtn_Click"/>
+        <Button x:Name="BackBtn" Content="Вернуться назад" HorizontalAlignment="Left" Margin="322,34,0,0" VerticalAlignment="Top" Width="202" Click="BackBtn_Click"/>
         <Image HorizontalAlignment="Left" Height="90" Margin="10,10,0,0" VerticalAlignment="Top" Width="255" Source="logo.png"/>
 
     </Grid>
